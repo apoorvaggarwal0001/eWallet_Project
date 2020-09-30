@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background: #f3f3f3;
+    color: rgb(53, 53, 53);
+    padding: 10px;
+}
+th, td {
+    border-bottom: 1px solid rgb(172, 172, 247);
+    padding: 10px;
+    padding-left: 20px;
+    text-align: center;
+  }
+th{
+    margin-right: 10px;
+    font-size: larger;
+}
+table{
+    width: 100%;
+    background: #f3f3f3;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+}
+
+tr:hover{
+    background-color: #1d1d1d;
+    color: rgb(255, 255, 255);
+}
